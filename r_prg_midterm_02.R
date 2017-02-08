@@ -1,0 +1,6 @@
+par(mfrow = c(2,3))
+barplot(table(factor(mtcars$disp)), main = "barplot", xlab = "disp", ylab = "Vehicle counts")
+boxplot(mtcars$mpg ~ mtcars$vs , main = "boxplot4")
+hist(iris$Petal.Length, main = "hist3")
+plot(x = iris$Sepal.Length, y = iris$Sepal.Width, main = "plot2", xlab = "Length", ylab = "Width", sub = "2017-2-8" , type = "l")
+plot(x = iris$Sepal.Length, y = iris$Sepal.Width, main = "plot1", xlab = "Length", ylab = "Width", sub = "2017-2-8")
